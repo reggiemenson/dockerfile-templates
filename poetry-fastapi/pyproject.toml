@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fast-api-startup"
+version = "1.0.0"
+description = "Template"
+authors = ["Reggie Tachie-Menson <mrmenson@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+fastapi = "*"
+uvicorn = "*"
+
+[build-system]
+requires = ["poetry-core>=1.4.0"]
+build-backend = "poetry.core.masonry.api"
